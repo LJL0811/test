@@ -1,30 +1,7 @@
-# work
+设计并实现一个图片上传并预览组件 
 
-> A Vue.js project
+上传图片链接
+http:localhost:3000/upload.html
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:3000
-npm run start
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+图片预览放大
+http:localhost:3000/a.html
