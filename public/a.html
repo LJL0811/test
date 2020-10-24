@@ -1,0 +1,30 @@
+<html>
+ <head>
+ <meta charset="utf-8" />
+ <title>图片预览放大</title>
+ <link rel="stylesheet" href="style.css" />
+ </head>
+ <body onLoad="setupZoom();">
+ <div class="file-container">
+ <div class="file-box">
+ <input type="file" class="file-btn" accept="image/png,image/jpeg,image/gif" id="file" />
+ <text>选择文件</text>
+ </div>
+ <span id="showFileName"></span>
+ <span id="fileerrorTip"></span>
+ <div class="show_image">
+ <img src="" id="file_img" />
+ <div class="motai" id="mo">
+  <span class="close" id="close">×</span>
+  <img class="motaiimg" id="moimg">
+  <div id="caption"></div>
+ </div>
+ </div>
+ </div>
+  <script type="text/javascript" src="script.js"></script>
+ <script type="text/javascript" src="upload.js"></script>
+ <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/fancyzoom/js-global/FancyZoom.js"></script> 
+ <script type="text/javascript" src="${pageContext.request.contextPath}/plugins/fancyzoom/js-global/FancyZoomHTML.js"></script>
+ 
+ </body>
+</html>
